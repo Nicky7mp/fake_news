@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default MiddleCards = (props) => {
+const MiddleCards = (props) => {
     return (
         <div className="bodyDivMiddleCards">
 
@@ -17,3 +17,6 @@ export default MiddleCards = (props) => {
     </div>
     )
 }
+
+
+export default MiddleCards
