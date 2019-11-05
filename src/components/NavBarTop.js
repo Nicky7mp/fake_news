@@ -5,7 +5,7 @@ import React from 'react'
 // Do I have to use <a> instead of <Link>
 import {Link} from 'react-router-dom'
 
-export default  NavBarTop = (props) => {
+const  NavBarTop = (props) => {
     return (
         <nav className="navBarTop">
             <ul>
@@ -43,3 +43,5 @@ export default  NavBarTop = (props) => {
         
     );
 }
+
+export default  NavBarTop 
