@@ -6,7 +6,7 @@ import { FaFacebookSquare } from 'react-icons/io'
 //Do we need LINK??? or should we use <a>
 import { Link } from 'react-router-dom'
 
-export default NavBarBottom = () => {
+const NavBarBottom = () => {
     return (
         <nav className="navBarBottom">
             <div className="essentialsDiv">
@@ -77,3 +77,6 @@ export default NavBarBottom = () => {
         </nav>
     )
 }
+
+
+export default NavBarBottom 
