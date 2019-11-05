@@ -29,7 +29,7 @@ import MainCard from '../src/components/MainCard'
 import Adcards from './components/AdCards'
 import Footer from './components/Footer'
 import NavBarTop from './components/NavBarTop'
-import NavBarBotton from './components/NavBarBottom'
+import NavBarBottom from './components/NavBarBottom'
 
 
 
