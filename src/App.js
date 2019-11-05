@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Jacobgc from './images/jacobgeeclarke.jpeg'
+import Jacob from './images/Jacobmanswins.jpeg'
+import Natalja from './images/natalja.jpg'
+import Pav from './images/pav.jpg'
+import Pav2 from './images/pav2.jpg'
+import Vicky from './images/vicky.jpg'
+import Maarja from './images/Maarja.jpg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Box img= "Dean devasted as he loses in-work boyfriend to Jacob G Clarke"></Box>
+    <Box img={Vicky} title="Keen Greenfingered lady causes devastaion to all plants in garden centre"></Box>
+    <Box img={Natalja} title="The question everyone is asking, Who's Sarah?"></Box>
+    <Box img={Maarja} title="Woman breaks mans arm in thumb war."></Box>
     </div>
   );
 }
