@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default AdCards = (props) => {
+const AdCards = (props) => {
     return (
         <div className="adCardsImage">
             <img className="adImage" src={props.img} alt="ad image"/>
         </div>
     )
 }
+
+export default AdCards
