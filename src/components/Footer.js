@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default Footer = (props) => {
+const Footer = (props) => {
     return (
         <div className="footerMainDiv">
             <img className="footerLogo" src={props.logo} alt="Fake-news logo" />
@@ -24,3 +24,5 @@ export default Footer = (props) => {
         </div>
     )
 }
+
+export default Footer
