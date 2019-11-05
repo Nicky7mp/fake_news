@@ -47,7 +47,7 @@ class App extends React.Component{
       <MiddleCards img={Telmo} title="'Add a little bit of zoom so you can see', Now favourite alltime quote of the turing class" subcategory="World" />
       <SmallCards title="Turing was a motherf***ing bad ass, claims man to his bosses" subcategory="Unapologetically Jon" />
       <SmallCards img={Spicy} title="Woman makes soup so spicy that she has to down a litre of yoghurt a minute" subcategory="Food" />
-      <SmallCards img={Nicky} title="Icky is now 18 weeks in on the course and still doesnt know anything" subcategory="Numbnuts" />
+      <SmallCards img={Nicky} title="Nicky is now 18 weeks in on the course and still doesnt know anything" subcategory="Numbnuts" />
       <SmallCards img={Quagmire} title="How much Giggity is too much Giggity?" subcategory="Filth" />
       
     </div>
