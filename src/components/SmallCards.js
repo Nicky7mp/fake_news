@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default SmallCards = (props) => {
+ const SmallCards = (props) => {
     return (
         <div className="bodyDivSmallCards">
 
@@ -17,3 +17,5 @@ export default SmallCards = (props) => {
         </div>
     )
 }
+
+export default SmallCards

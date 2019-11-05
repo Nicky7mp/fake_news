@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default  MainCard = (props) => {
+const MainCard = (props) => {
     return (
         <div className="mainCardBodyDiv">
             <img className="mainCardImg" src={props.img} alt=""/>
@@ -10,3 +10,5 @@ export default  MainCard = (props) => {
         </div>
     )
 }
+
+export default MainCard
