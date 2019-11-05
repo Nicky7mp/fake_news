@@ -3,7 +3,7 @@ import React from 'react'
 export default Footer = (props) => {
     return (
         <div className="footerMainDiv">
-            <img className="footerLogo" src={props.} alt="Fake-news logo" />
+            <img className="footerLogo" src={props.img} alt="Fake-news logo" />
 
             <div className="rights">
                 <h6>All rights reserved. © 2019 FakeNews Publications Ltd.</h6>
