@@ -18,8 +18,9 @@ import Schools from './images/w3.jpeg'
 import Raisins from './images/Raisins.jpeg'
 import Quagmire from './images/giggity.jpg'
 import Nicky from './images/Nicky.JPG'
+import Spicy from './images/spicyfood.png'
 import SmallCards from '../src/components/SmallCards'
-import MiddleCards from './components/MiddleCards'
+import MiddleCards from '../src/components/MiddleCards'
 import MainCard from '../src/components/MainCard'
 
 
@@ -45,7 +46,7 @@ class App extends React.Component{
       <SmallCards img={MacSmack} title="Smack the Mac day so popular, Apple are having to work overtime to make more" subcategory="Tech" />
       <MiddleCards img={Telmo} title="'Add a little bit of zoom so you can see', Now favourite alltime quote of the turing class" subcategory="World" />
       <SmallCards title="Turing was a motherf***ing bad ass, claims man to his bosses" subcategory="Unapologetically Jon" />
-      <SmallCards title="Woman makes soup so spicy that she has to down a litre of yoghurt a minute" subcategory="Food" />
+      <SmallCards img={Spicy} title="Woman makes soup so spicy that she has to down a litre of yoghurt a minute" subcategory="Food" />
       <SmallCards img={Nicky} title="Nicky is now 18 weeks in on the course and still doesnt know anything" subcategory="Numbnuts" />
       <SmallCards img={Quagmire} title="How much Giggity is too much Giggity?" subcategory="Filth" />
       
