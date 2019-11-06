@@ -9,9 +9,9 @@ const NavBarTop = (props) => {
             </div>
             <div className="links">
                 <ul>
-                    {/* <li>
+                    <li>
                         <Link to="/">News</Link>
-                    </li> */}
+                    </li>
 
                     <li>
                         <Link to="/opinion">Opinion</Link>
