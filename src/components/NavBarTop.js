@@ -1,8 +1,4 @@
 import React from 'react'
-
-
-// Do we need this? 
-// Do I have to use <a> instead of <Link>
 import {Link} from 'react-router-dom'
 
 const  NavBarTop = (props) => {
@@ -32,11 +28,11 @@ const  NavBarTop = (props) => {
                 </li>
 
                 <li>
-                     <Link to="/">Search</Link>
+                     <Link to="/search">Search</Link>
                 </li>
 
                 <li>
-                     <Link to="/">Sign in</Link>
+                     <Link to="/signin">Sign in</Link>
                 </li>
             </ul>
         </nav>
@@ -44,4 +40,4 @@ const  NavBarTop = (props) => {
     );
 }
 
-export default  NavBarTop 
+export default NavBarTop 

@@ -26,7 +26,7 @@ import Southcoders2 from './images/southcoders2.jpg'
 import SmallCards from '../src/components/SmallCards'
 import MiddleCards from '../src/components/MiddleCards'
 import MainCard from '../src/components/MainCard'
-import Adcards from './components/AdCards'
+import AdCards from './components/AdCards'
 import Footer from './components/Footer'
 import NavBarTop from './components/NavBarTop'
 import NavBarBottom from './components/NavBarBottom'
@@ -38,7 +38,7 @@ class App extends React.Component{
   return (
     
     <div className="App">
-      <NavBarTop />
+      {/* <NavBarTop /> */}
       <MiddleCards img={Jacob} title="Man finally wins his first Ping-Pong match against a 3 year old" subcategory="Not really a sport" />
       <MiddleCards img={Jacobgc} title="Dean devasted as he loses in-work boyfriend to Jacob G Clarke" subcategory="Guylove" />
       <MiddleCards img={Vicky} title="Keen Greenfingered lady sets fire to all plants in garden centre in mad ZenGarden rage" subcategory="Vegetarians" />
@@ -59,7 +59,7 @@ class App extends React.Component{
       <SmallCards img={Spicy} title="Woman makes soup so spicy that she has to down a litre of yoghurt a minute" subcategory="Food" />
       <SmallCards img={Nicky} title="Nicky is now 18 weeks in on the course and still doesnt know anything" subcategory="Numbnuts" />
       <SmallCards img={Quagmire} title="How much Giggity is too much Giggity?" subcategory="Filth" />
-      <NavBarBottom />
+      {/* <NavBarBottom /> */}
       <Footer />
     </div>
   );
