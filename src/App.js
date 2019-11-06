@@ -43,6 +43,7 @@ class App extends React.Component{
       {/* <NavBarTop img={Logo}/> */}
       <div className="firstSection">
         <MainCard img={Natalja} title="The question everyone is asking, Who's Sarah?" />
+        <AdCards img={Sharp} />
         <MiddleCards img={Jacob} title="Man finally wins his first Ping-Pong match against a 3 year old" subcategory="Not really a sport" />
         <MiddleCards img={Telmo} title="Portuguese man says 'Winner Winner Chicken Dinner' for the first time" subcategory="World" />
       </div>
@@ -60,12 +61,14 @@ class App extends React.Component{
       <SmallCards img={Maarja} title="Woman breaks mans arm in thumb war." subcategory="The Hulkess" />
       <SmallCards img={Pav} title="Polish man changes his name to 'Pepe le Pav'" subcategory="World" />
       <SmallCards img={Train} title="Man retires after earning 1m in delayed train fares in 3 months" subcategory="Money" />
+      <AdCards img ={Southcoders1} />
       </div>
       <div className="fourthSection">
       <MiddleCards img={Telmo} title="'Add a little bit of zoom so you can see', Now favourite alltime quote of the turing class" subcategory="World" />
       <SmallCards img={Spicy} title="Woman makes soup so spicy that she has to down a litre of yoghurt a minute" subcategory="Food" />
       <SmallCards img={Raisins} title="Sneaky raisins finding there way into peoples food" subcategory="Wrong" />
       <SmallCards img={Blinded} title="Maarja blinds the editor of fake news by making her look at bright lights" subcategory="Torture" />
+      <AdCards img={Southcoders2} />
       </div>
       
       {/* <SmallCards img={Arsenal} title="Arsenal lose AGAIN!" subcategory="Sports" /> */}
