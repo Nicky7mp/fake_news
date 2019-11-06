@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Jacobgc from './images/jacobgeeclarke.jpeg'
-import Jacob from './images/Jacobmanswins.jpeg'
+import Jacob from './images/Jacobmanswins.jpg'
 import Natalja from './images/natalja.jpg'
 import Pav from './images/pav.jpg'
 import Pav2 from './images/pav2.jpg'
@@ -40,17 +40,25 @@ class App extends React.Component{
   return (
     
     <div className="App">
+    <div className="grid1">
       {/* <NavBarTop img={Logo}/> */}
       <div className="firstSection">
         <MainCard img={Natalja} title="The question everyone is asking, Who's Sarah?" />
         <AdCards img={Sharp} />
+        <div className="">
         <MiddleCards img={Jacob} title="Man finally wins his first Ping-Pong match against a 3 year old" subcategory="Not really a sport" />
         <MiddleCards img={Telmo} title="Portuguese man says 'Winner Winner Chicken Dinner' for the first time" subcategory="World" />
-      </div>
+        
+        </div>
+        </div>
+       </div>
+      
       <div className="secondSection">
+      <div className="secondSectionFirst">
         <SmallCards img={Nicky} title="Nicky is now 18 weeks in on the course and still doesnt know anything" subcategory="Numbnuts" />
         <SmallCards img={Schools} title="W3 Schools is officially better than MDN, says Jacob" subcategory="Truth" />
         <SmallCards img={Quagmire} title="How much Giggity is too much Giggity?" subcategory="Filth" />
+        </div>
         <MiddleCards img={Jacobgc} title="Dean devasted as he loses in-work boyfriend to Jacob G Clarke" subcategory="Guylove" />
         <SmallCards img={Hamza} title="Hamza missing classes due to advising Larry Page on running google more efficiently" subcategory="HyperTech" />
         <SmallCards img={MacSmack} title="Smack the Mac day so popular, Apple are having to work overtime to make more" subcategory="Tech" />
