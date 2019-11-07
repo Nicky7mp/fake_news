@@ -23,6 +23,7 @@
   width: 28vw;
   height: auto;
   padding-right: 3vh;
+
  
 }
 .mainCardBodyDiv {
@@ -37,10 +38,12 @@
   margin-top: 13vh;
 }
 .title {
-  margin-top: -2.5vh;
+  margin-top: -2vh;
   font-size: 3vh;
   background-color: red;
   padding-bottom: 0.01vh;
+  width: 62vw;
+  margin-left: 9vw;
 
 }
 
@@ -84,6 +87,7 @@
 /*Jacob and Telmo*/
 .Jacobimg {
   margin-left: 19vh;
+  margin-top: 2vh;
 }
 
 /*Smallcards alla settings*/
@@ -94,12 +98,16 @@
   margin-top: 3vh;
   margin-left: 1vh;
 }
+.smallCardsImg img {
+  width: 100%;
+  height: auto;
+}
 .bodyDivSmallCards {
   width: 20vw;
   height: 20vh;
   display: flex;
   flex-direction: row;
-  margin-bottom: 6vh;
+  margin-bottom: 7vh;
   background-color: white;
 }
 .titleSmallCards  {
@@ -246,7 +254,7 @@
 
 .Southcodersimg {
   margin-left: 5vh;
-  width: 18vw;
+  width: 19vw;
   height: 40vh;
 
 }
@@ -263,10 +271,12 @@
 }
 .sharpImg {
   margin-left: 9vh;
-  width: 250vw;
-  height: 40vh;
+  margin-top: 14vh;
 }
 .sharpImg {
   width: 100%;
   height: auto;
+}
+.babyAdImg {
+  margin-top: 7vh;
 }
