@@ -40,12 +40,10 @@
   margin-top: -2.5vh;
   font-size: 3vh;
   background-color: red;
+  padding-bottom: 0.01vh;
 
 }
-.Sharpimg {
-  border-style: solid;
-  border-color: black;
-}
+
 
 
 /*MiddleCards all settings*/
@@ -229,7 +227,7 @@
 }
 
 
-/*Footer*/
+/* Footer */
 .footerLogo {
   width: 5vw;
   margin-right: 3vh;
@@ -244,10 +242,31 @@
   padding: 1.5vh;
 }
 
+/* Ads pictures  */
 
 .Southcodersimg {
   margin-left: 5vh;
+  width: 18vw;
+  height: 40vh;
+
+}
+.Southcodersimg img {
+  width: 100%;
+  height: auto;
 }
 .Southcodersimg2 {
   margin-left: 5vh;
+}
+.Southcodersimg2 img {
+  width: 100%;
+  height: auto;
+}
+.sharpImg {
+  margin-left: 9vh;
+  width: 250vw;
+  height: 40vh;
+}
+.sharpImg {
+  width: 100%;
+  height: auto;
 }
