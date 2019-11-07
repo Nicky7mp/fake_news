@@ -24,6 +24,7 @@ import Sharp from '../images/sharpAd.jpg'
 import Logo from '../images/logo.png'
 import Southcoders1 from '../images/southcoders1.jpg'
 import Southcoders2 from '../images/southcoders2.jpg'
+
 import SmallCards from './SmallCards'
 import MiddleCards from './MiddleCards'
 import MainCard from './MainCard'
@@ -42,7 +43,7 @@ export default function News() {
                 <MiddleCards img={Telmo} title="Portuguese man says 'Winner Winner Chicken Dinner' for the first time" subcategory="World" />
             </div>
             <div className="secondSection">
-                <SmallCards img={Nicky} title="Nicky is now 18 weeks in on the course and still doesnt know anything" subcategory="Numbnuts" />
+                <SmallCards img={Nicky} title="Nicky is now 18 weeks into course and still can't code" subcategory="Numbnuts" />
                 <SmallCards img={Schools} title="W3 Schools is officially better than MDN, says Jacob" subcategory="Truth" />
                 <SmallCards img={Quagmire} title="How much Giggity is too much Giggity?" subcategory="Filth" />
                 <MiddleCards img={Jacobgc} title="Dean devasted as he loses in-work boyfriend to Jacob G Clarke" subcategory="Guylove" />
@@ -58,7 +59,7 @@ export default function News() {
                 <AdCards img={Southcoders1} />
             </div>
             <div className="fourthSection">
-                <MiddleCards img={Telmo} title="'Add a little bit of zoom so you can see', Now favourite alltime quote of the turing class" subcategory="World" />
+                <MiddleCards img={Telmo} title="'Add a little bit of zoom so you can see', Now favourite all-time quote of the turing class" subcategory="World" />
                 <SmallCards img={Spicy} title="Woman makes soup so spicy that she has to down a litre of yoghurt a minute" subcategory="Food" />
                 <SmallCards img={Raisins} title="Sneaky raisins finding there way into peoples food" subcategory="Wrong" />
                 <SmallCards img={Blinded} title="Maarja blinds the editor of fake news by making her look at bright lights" subcategory="Torture" />
@@ -73,7 +74,7 @@ export default function News() {
 
 
 
-            {/* <NavBarBottom /> */}
+            <NavBarBottom />
         </div>
     )
 }
