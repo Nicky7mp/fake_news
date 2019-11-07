@@ -6,12 +6,14 @@ const MiddleCards = (props) => {
 
         <img className="middleCardsImg" src={props.img} alt=""/>
 
+        <div className="middleCardsBorder">
         <div className="titleMiddleCards">
             <h1>{props.title}</h1>
         </div>
 
         <div className="subMiddleCards">
             <h5>{props.subcategory}</h5>
+        </div>
         </div>
 
     </div>

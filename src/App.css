@@ -1,48 +1,253 @@
-/* .App {
-  text-align: center;
-} */
+.App {
+  background-color: gainsboro;
+}
+/*FlexBob Stuff*/
+.Nataljaimg {
+  display: flex;
+}
+.Jacobimg{
+  display: flex;
+}
+.secondSection {
+  display: flex;
+}
+.thirdSection {
+  display: flex;
+}
+.fourthSection {
+  display: flex;
+}
 
+/*Natalja and Sharp*/
 .mainCardImg {
-  width: 40vw;
+  width: 28vw;
   height: auto;
+  padding-right: 3vh;
+ 
 }
 .mainCardBodyDiv {
-  width: 50vw;
+  width: 76vw;
+  height: 74vh;
+  margin-left: 19vh;
+  background-color:gainsboro;
+  color: black;
+  text-align: center;
+  padding-bottom: 0vh;
+  margin-bottom: 3vh;
+  margin-top: 13vh;
+}
+.title {
+  margin-top: -2.5vh;
+  font-size: 3vh;
+  background-color: red;
+
+}
+.Sharpimg {
   border-style: solid;
   border-color: black;
-  margin-left: 10vh;
 }
 
+
+/*MiddleCards all settings*/
 .middleCardsImg {
-  width: 30vw;
+  width: 25vw;
   height: auto;
 }
 .bodyDivMiddleCards {
   width: 30vw;
-  border-style: solid;
-  border-color: black;
+  text-align: center;
+  margin-bottom: 10vh;
 }
-.smallCardsImg {
-  width: 10vw;
-}
-.bodyDivSmallCards {
-  /* display: flex; */
+.middleCardsBorder {
+  display: flex;
   flex-direction: column;
-  border-style: solid;
-  border-color: black;
-  width: 20vw;
-}
-
-.grid1 {
-  display: grid ;
-  display: -ms-inline-grid;
-}
-
-
-
-.titleSmallCards  {
-  font-size: 1vh;
+  justify-content: space-between;
+  width: 25vw;
+  margin-left: 5.3vh;
+  margin-top: -0.55vh;
+  background-color: white;
+  padding-top: 1vh;
+  padding-bottom: 0vh;
 }
 .titleMiddleCards {
   font-size: 1.5vh;
+  text-align: left;
+  margin-left: 1.5vh;
+  margin-top: 3vh;
+}
+.subMiddleCards {
+  text-align: left;
+  margin-left: 1.5vh;
+  margin-top: -2vh;
+  font-size: 2vh;
+  color: rgb(177, 14, 14);
+}
+
+/*Jacob and Telmo*/
+.Jacobimg {
+  margin-left: 19vh;
+}
+
+/*Smallcards alla settings*/
+
+.smallCardsImg {
+  width: 12vw;
+  height: 15vh;
+  margin-top: 3vh;
+  margin-left: 1vh;
+}
+.bodyDivSmallCards {
+  width: 20vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 6vh;
+  background-color: white;
+}
+.titleSmallCards  {
+  font-size: 1vh;
+}
+.bodyDivSmallCards {
+  width: 46vh;
+}
+.textSmallCards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2vh;
+  margin-top: 1.5vh;
+}
+.subSmallCards {
+  font-size: 2vh;
+  color: rgb(177, 14, 14);
+}
+.secondSection {
+  margin-left: 19vh;
+}
+
+/*Vicky picture section*/
+.thirdSection {
+  margin-left: 15vh;
+  margin-top: 5vh;
+}
+.Maarjaimg {
+  margin-left: 5vh;
+}
+
+/*Telmo picture section*/
+.fourthSection{
+  margin-left: 15vh;
+  margin-top: 5vh;
+}
+.Spicyimg {
+  margin-left: 5vh;
+}
+
+/*NavBars*/
+.navBarTop, .navBarBottom {
+  display: flex;
+  background-color: rgb(177, 14, 14);
+  width: 100vw;
+}
+.navBarTop {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  border-style: solid;
+}
+.navBarLogo {
+  width: 6vw;
+}
+.links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.links li {
+  list-style-type: none;
+  margin-top: 4.5vh;
+  font-size: 3vh;
+ 
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  padding: 3vw;
+}
+ a:hover {
+  background-color: rgb(128, 15, 0);
+}
+
+.navBarBottom {
+  padding-top: 5vh;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 2vh;
+}
+.navBarBottom li {
+  list-style-type: none;
+  font-size: 2vh;
+}
+.navBarBottom a {
+  color: black;
+  font-size: 2.5vh;
+}
+.navBarBottom a {
+  text-decoration: none;
+}
+.essentials, .usefulLinks, .followus {
+  color: red;
+  text-decoration: overline;;
+  font-size: 3vh;
+}
+.essentialsDiv {
+ 
+  margin-left: 25vw;
+  margin-right: 0vw;
+}
+.essensialsText, .usefulText, .icons {
+  margin-top: -3vh;
+
+} 
+.essentialsDiv, .usefulDiv, .followDiv {
+  padding-right: 10vh;
+  text-align: left;
+  
+}
+.essentials, .usefulLinks, .followus {
+  padding-inline-start: 4.1vh;
+}
+
+.icons {
+  display: flex;
+}
+.facebook, .twitter, .instagram {
+  margin-left: 5vh;
+}
+.followDiv {
+  margin-left: -5vh;
+}
+
+
+/*Footer*/
+.footerLogo {
+  width: 5vw;
+  margin-right: 3vh;
+}
+.footerMainDiv {
+  display: flex;
+  background-color: rgb(177, 14, 14);
+  justify-content: center;
+  color: white;
+}
+.rights, .cookie, .terms, .privacy {
+  padding: 1.5vh;
+}
+
+
+.Southcodersimg {
+  margin-left: 5vh;
+}
+.Southcodersimg2 {
+  margin-left: 5vh;
 }
