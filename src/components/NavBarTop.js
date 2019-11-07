@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaSearch } from 'react-icons/fa'
 
 const NavBarTop = (props) => {
     return (
@@ -37,6 +38,14 @@ const NavBarTop = (props) => {
                         <Link to="/signin">Sign in</Link>
                     </li> */}
                 </ul>
+            </div>
+            <div className="searchBar">
+                <div className="searchInput">
+                    <input type="text" placeholder="Search"></input>
+                </div>
+                <div className="searchIcon">
+                    <FaSearch />
+                </div>
             </div>
         </div>
 
