@@ -24,6 +24,7 @@ import Sharp from '../images/sharpAd.jpg'
 import Logo from '../images/logo.png'
 import Southcoders1 from '../images/southcoders1.jpg'
 import Southcoders2 from '../images/southcoders2.jpg'
+
 import SmallCards from './SmallCards'
 import MiddleCards from './MiddleCards'
 import MainCard from './MainCard'
