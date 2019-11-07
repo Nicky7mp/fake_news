@@ -152,6 +152,8 @@
   width: 100%;
   z-index: 100;
   border-style: solid;
+  display: flex;
+  justify-content: space-between;
 }
 .navBarLogo {
   width: 6vw;
@@ -163,9 +165,9 @@
 }
 .links li {
   list-style-type: none;
-  margin-top: 4.5vh;
   font-size: 3vh;
- 
+  display: flex;
+  align-content: center;
 }
 .links a {
   text-decoration: none;
@@ -174,6 +176,16 @@
 }
  a:hover {
   background-color: rgb(128, 15, 0);
+}
+.searchIcon {
+  color: white;
+  padding-left: 1vw;
+}
+.navBarTop .searchBar {
+  margin-right: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .navBarBottom {
@@ -270,3 +282,4 @@
   width: 100%;
   height: auto;
 }
+
