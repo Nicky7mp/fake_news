@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Title: Fake News - READ ALL ABOUT IT!
 
-## Available Scripts
+## This news website is for Code Nation members who can laugh at themselves and appreciate good humour. 
 
-In the project directory, you can run:
+### Set up
 
-### `npm start`
+You may wish to fork this repository or remove our remote origin and add your own. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Fake News is a `Website that allows `Codenation ` to ` have a giggle`.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Prerequisites
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before you begin, ensure you have met the following requirements:
+<!--- These are just example requirements. Add, duplicate or remove as required --->
+* You have installed the latest version of `react ` using ` npx create-react-app`
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Using Fake News
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+To use <Fake News>, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+<usage_example>
+```
 
-### `npm run eject`
+Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributing to <Fake News>
+<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
+To contribute to <project_name>, follow these steps:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <fake_news>/<location>`
+5. Create the pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contributors
 
-## Learn More
+Thanks to the following people who have contributed to this project:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [@Nicky7mp](https://github.com/Nicky7mp) 📖🎨💻
+* [@rebeccavahughes](https://github.com/rebeccavahughes) 📖📆🖋💻
+* [@cendre18](https://github.com/cendre18) 📖🎨💻
+* [@Hamzter](https://github.com/hamzter) 📖🎨
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
 
-### Code Splitting
+## Contact
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+If you want to contact us you can reach us in the turing classroom for the next 5 weeks.
 
-### Analyzing the Bundle Size
+Complaints to be directed to snowflakessociety@wedontgiveaf.com
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
