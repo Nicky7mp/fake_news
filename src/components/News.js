@@ -85,30 +85,30 @@ export default function News() {
                 </div>
 
             </div>
-        <div className="fourthSection">
-            <div className="Telmoimg">
-                <MiddleCards img={Telmo} title="'Add a little bit of zoom so you can see', Now favourite all-time quote of the Turing class" subcategory="World" />
+            <div className="fourthSection">
+                <div className="Telmoimg">
+                    <MiddleCards img={Telmo} title="'Add a little bit of zoom so you can see', Now favourite all-time quote of the Turing class" subcategory="World" />
+                </div>
+                <div className="Spicyimg">
+                    <SmallCards img={Spicy} title="Woman makes soup so spicy that she has to down a litre of yoghurt a minute" subcategory="Food" />
+                    <SmallCards img={Raisins} title="Sneaky raisins finding there way into peoples food" subcategory="Wrong" />
+                    <SmallCards img={Blinded} title="Maarja blinds the editor of fake news by making her look at bright lights" subcategory="Torture" />
+                </div>
+
+                <div className="sharpImg">
+                    <AdCards img={Sharp} />
+                </div>
             </div>
-            <div className="Spicyimg">
-                <SmallCards img={Spicy} title="Woman makes soup so spicy that she has to down a litre of yoghurt a minute" subcategory="Food" />
-                <SmallCards img={Raisins} title="Sneaky raisins finding there way into peoples food" subcategory="Wrong" />
-                <SmallCards img={Blinded} title="Maarja blinds the editor of fake news by making her look at bright lights" subcategory="Torture" />
-            </div>
 
-            <div className="sharpImg">
-                <AdCards img={Sharp} />
-            </div>
-        </div>
+            {/* <SmallCards img={Arsenal} title="Arsenal lose AGAIN!" subcategory="Sports" /> */}
 
-            {/* <SmallCards img={Arsenal} title="Arsenal lose AGAIN!" subcategory="Sports" /> */ }
-
-    {/* <SmallCards img={Pineapple} title="Pineapple does not belong on a pizza no matter what Maarja says"  subcategory="Food" /> */ }
-    {/* <SmallCards img={Pigs} title="Unpopular opinion reveals pigs in blankets aint all that.." subcategory="Unpopular Opinons" /> */ }
+            {/* <SmallCards img={Pineapple} title="Pineapple does not belong on a pizza no matter what Maarja says"  subcategory="Food" /> */}
+            {/* <SmallCards img={Pigs} title="Unpopular opinion reveals pigs in blankets aint all that.." subcategory="Unpopular Opinons" /> */}
 
 
 
 
-    <NavBarBottom />
+            <NavBarBottom />
         </div >
     )
 }

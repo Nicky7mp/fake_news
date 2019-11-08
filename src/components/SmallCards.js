@@ -3,8 +3,9 @@ import React from 'react'
 const SmallCards = (props) => {
     return (
         <div className="bodyDivSmallCards">
-
+            <div className="img-size">
             <img className="smallCardsImg" src={props.img} alt="" />
+            </div>
 
             <div className="textSmallCards">
 
