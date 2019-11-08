@@ -2,11 +2,16 @@
   background-color: gainsboro;
 }
 /*FlexBox Stuff for the mainbodytags*/
-.Nataljaimg {
+.mainCardBodyDiv {
+  display: flex;
+  justify-content: center;
+}
+
+/* .Nataljaimg {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
+} */
 .Jacobimg{
   display: flex;
   flex-wrap: wrap;
@@ -28,24 +33,32 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
+/*Moves everything more to center*/
+ .firstSection, .secondSection, .thirdSection, .fourthSection{
+   margin-left: 15vh;
+   margin-right: 15vh;
+ }
 /*Natalja main story*/
 .mainCardImg {
-  width: 28vw;
-  margin-top: 18vh;
+  width: 50%;
+  height: auto;
+  margin-top: 20vh;
+  
+}
+.Nataljaimg {
+margin-left: 28vh;
 }
 .mainCardBodyDiv {
-  width: 76vw;
-  height: 74vh;
+  width: 60vw;
+  height: 79vh;
   color: black;
   text-align: center;
-  margin-bottom: 13vh;
+  margin-bottom: 14vh;
 }
 .title {
   font-size: 3vh;
-  background-color: red;
-  width: 62vw;
-  margin-left: 15vh;
+  background-color:rgb(177, 14, 14);
+  margin-top: 20vh;
 }
 
 /*MiddleCards All Settings*/
@@ -74,29 +87,36 @@
   font-size: 1.5vh;
   text-align: left;
   display: flex;
-
+}
+.titleMiddleCards, .subMiddleCards {
+  margin-left: 1vh;
 }
 
 /*SmallCards All Settings*/
 
 .smallCardsImg {
-  width: 12vw;
+  width: 10vw;
   height: 15vh;
+  margin-top: 2vh;
+  margin-right: 1vh;
+  margin-left: 0.5vh;
 }
 .smallCardsImg img {
   width: 100%;
   height: auto;
 }
 .bodyDivSmallCards {
-  width: 20vw;
+  width: 25vw;
   height: 20vh;
   display: flex;
   flex-direction: row;
-  margin-bottom: 7vh;
+  margin-bottom: 5vh;
   background-color: white;
 }
 .titleSmallCards  {
   font-size: 1vh;
+  margin-top: 0.3vh;
+  margin-right: 0.3vh;
 }
 .subSmallCards {
   font-size: 2vh;
@@ -107,6 +127,13 @@
   flex-direction: column;
   justify-content: space-between;
 
+}
+
+.Jacobimg, .secondSection, .thirdSection {
+  margin-bottom: 13vh;
+}
+.babyAdImg {
+  margin-top: 6vh;
 }
 
  /*NavBars*/
@@ -130,7 +157,7 @@
   height: 13vh;
 }
 .navBarLogo {
-  width: 6vw;
+  width: 7vw;
 }
 .links ul {
   margin: 0;
@@ -295,10 +322,13 @@
   }
 
 
-  /*.newsArticles {
-    margin-left: 10vw; 
-    margin-right: 10vw;
-  } */
-  .Nataljaimg {
-    margin-bottom: 10vh;
-  }
+ /*Other pages*/
+ .classOne, .classTwo, .classThree {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 5vh;
+}
+.div {
+  margin-left: 34vh;
+}
