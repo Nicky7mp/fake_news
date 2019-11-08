@@ -132,9 +132,9 @@ margin-left: 28vh;
 .Jacobimg, .secondSection, .thirdSection {
   margin-bottom: 13vh;
 }
-.babyAdImg {
-  margin-top: 6vh;
-}
+/* .babyAdImg {
+  margin-top: 1vh;
+} */
 
  /*NavBars*/
  .navBarTop, .navBarBottom {
