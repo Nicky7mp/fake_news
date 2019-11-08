@@ -1,33 +1,25 @@
-# Project Title: Fake News - READ ALL ABOUT IT!
+# Project Title: Fake News - READ ALL ABOUT IT! 
 
 ## This news website is for Code Nation members who can laugh at themselves and appreciate good humour. 
 
 ### Set up
 
 You may wish to fork this repository or remove our remote origin and add your own. 
-
-Fake News is a `Website that allows `Codenation ` to ` have a giggle`.
+* This website can be hosted through github.
+* Once the Fake_news file is on your machine, drag the foldeer to VS code. 
+* In the terminal naviagte to the fake_news folder.
+* Run npm start in the terminal to launch the website.
 
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
+* A Working pc that has internet access and uses Win 10 or Mac OS
 * You have installed the latest version of `react ` using ` npx create-react-app`
 
 
-## Using Fake News
-
-To use <Fake News>, follow these steps:
-
-```
-<usage_example>
-```
-
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
 ## Contributing to <Fake News>
-<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
 To contribute to <project_name>, follow these steps:
 
 1. Fork this repository.
@@ -43,11 +35,11 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 Thanks to the following people who have contributed to this project:
 
 * [@Nicky7mp](https://github.com/Nicky7mp) 📖🎨💻
-* [@rebeccavahughes](https://github.com/rebeccavahughes) 📖📆🖋💻
+* [@rebeccavahughes](https://github.com/rebeccavahughes) 📖📆🖋💻🍆
 * [@cendre18](https://github.com/cendre18) 📖🎨💻
 * [@Hamzter](https://github.com/hamzter) 📖🎨
 
-You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
+
 
 ## Contact
 

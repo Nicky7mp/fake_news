@@ -15,11 +15,21 @@ export default function Culture() {
     return (
         <div>
             Culture pieces
+            <div className="div">
             <MainCard img={Natalja} title="The question everyone is asking, Who's Sarah?" />
+            </div>
+            <div className="classOne">
             <MiddleCards img={Telmo} title="Portuguese man says 'Winner Winner Chicken Dinner' for the first time" subcategory="World" />
             <MiddleCards img={Hamza} title="Hamza missing classes due to advising Larry Page on running google more efficiently" subcategory="HyperTech" />
+            </div>
+            <div className="classTwo">
             <MiddleCards img={Pav} title="Polish man changes his name to 'Pepe le Pav'" subcategory="World" />
+<<<<<<< HEAD
             <MiddleCards img={Raisins} title="Sneaky raisins finding their way into peoples food" subcategory="Wrong" />
+=======
+            <MiddleCards img={Raisins} title="Sneaky raisins finding there way into peoples food" subcategory="Wrong" />
+            </div>
+>>>>>>> 2109a2593c146c0de7721238166583ad17c39d9d
         </div>
     )
 }
