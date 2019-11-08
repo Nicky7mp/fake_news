@@ -19,7 +19,7 @@ export default function Culture() {
             <MiddleCards img={Telmo} title="Portuguese man says 'Winner Winner Chicken Dinner' for the first time" subcategory="World" />
             <MiddleCards img={Hamza} title="Hamza missing classes due to advising Larry Page on running google more efficiently" subcategory="HyperTech" />
             <MiddleCards img={Pav} title="Polish man changes his name to 'Pepe le Pav'" subcategory="World" />
-            <MiddleCards img={Raisins} title="Sneaky raisins finding there way into peoples food" subcategory="Wrong" />
+            <MiddleCards img={Raisins} title="Sneaky raisins finding their way into peoples food" subcategory="Wrong" />
         </div>
     )
 }
