@@ -24,8 +24,12 @@ export default function Culture() {
             </div>
             <div className="classTwo">
             <MiddleCards img={Pav} title="Polish man changes his name to 'Pepe le Pav'" subcategory="World" />
+<<<<<<< HEAD
+            <MiddleCards img={Raisins} title="Sneaky raisins finding their way into peoples food" subcategory="Wrong" />
+=======
             <MiddleCards img={Raisins} title="Sneaky raisins finding there way into peoples food" subcategory="Wrong" />
             </div>
+>>>>>>> 2109a2593c146c0de7721238166583ad17c39d9d
         </div>
     )
 }

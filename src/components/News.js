@@ -91,7 +91,7 @@ export default function News() {
                 </div>
                 <div className="Spicyimg">
                     <SmallCards img={Spicy} title="Woman makes soup so spicy that she has to down a litre of yoghurt a minute" subcategory="Food" />
-                    <SmallCards img={Raisins} title="Sneaky raisins finding there way into peoples food" subcategory="Wrong" />
+                    <SmallCards img={Raisins} title="Sneaky raisins finding their way into peoples food" subcategory="Wrong" />
                     <SmallCards img={Blinded} title="Maarja blinds the editor of fake news by making her look at bright lights" subcategory="Torture" />
                 </div>
 

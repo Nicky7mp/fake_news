@@ -263,6 +263,20 @@ margin-left: 28vh;
 
   
   @media only screen and (max-width: 700px) {
+
+    .navBarTop {
+      display: flex;
+      /* flex-direction: column; */
+      flex-wrap: wrap;
+    }
+    .linksAll {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+    .searchBar, .navBarLogo {
+      visibility: hidden;
+    }
     .Nataljaimg .Jacobimg, .Nickyimg, .Jacobgbimg, .Hamzaimg, .Vickyimg, .Maarjaimg, .FirstAdds, .Telmoimg, .Spicyimg, .sharpImg, .secondSection, .thirdSection, .fourthSection {
       display: flex;
       flex-direction: column;
@@ -287,6 +301,7 @@ margin-left: 28vh;
       background-color: white;
     
     }
+
     .babyAdImg {
       margin-bottom: 15vh;
     }
@@ -297,7 +312,7 @@ margin-left: 28vh;
       margin-left: 15%;
     }
     .Southcodersimg2, .Southcodersimg {
-      margin-bottom: 6vh;
+      margin-bottom: 12vh;
     }
     .Southcodersimg, .Southcodersimg2 {
       width: 70%;
@@ -312,16 +327,47 @@ margin-left: 28vh;
       height: 80%;
     }
     .middleCardsImg, .middleCardsBorder, .mainCardImg, .title  {
-      width: 50vh;
+      width: 100%;
+      height: auto;
     }
     .smallCardsImg, .textSmallCards {
       /* width: 50vh; */
       height: auto;
-
+    }
+    
+    .mainCardImg {
+      width: 100%;
+      /* margin-top: 100vh; */
+    }
+    .mainCardBodyDiv .title {
+      margin-left: 0;
+      width: 100%;
+    }
+    .mainCardBodyDiv {
+      margin-top: 35vh;
+      margin-bottom: 35vh;
+    }
+    /* .Nataljaimg {
+      margin-top: 10vh;
+    }
+    .firstSection {
+      margin-top: 10vh;
+    } */
+    .footerLogo {
+      width: 15vw;
     }
   }
 
 
+<<<<<<< HEAD
+  /*.newsArticles {
+    margin-left: 10vw; 
+    margin-right: 10vw;
+  } */
+  /* .Nataljaimg {
+    margin-bottom: 10vh;
+  } */
+=======
  /*Other pages*/
  .classOne, .classTwo, .classThree {
   display: flex;
@@ -332,3 +378,4 @@ margin-left: 28vh;
 .div {
   margin-left: 34vh;
 }
+>>>>>>> 2109a2593c146c0de7721238166583ad17c39d9d
